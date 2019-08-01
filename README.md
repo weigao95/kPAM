@@ -26,9 +26,9 @@ In our experiment setup, these packages are used as the submodules of [spartan](
 
 ### Test Data and Run Instruction
 
-The test data, trained model and run instruction for each package are provided in its own repository. Following the manipulation pipeline:
+The test data, trained model and run instruction for each package are provided in its own repository. Following the manipulation pipeline, the instructions are:
 
-- [Run object detection](https://github.com/weigao95/mrcnn_ros)
+- [Run object detection from raw images](https://github.com/weigao95/mrcnn_ros)
 - [Run 3D keypoint detection given segmented objects]()
 - [Run kPAM action optimization given 3D keypoints]()
 
