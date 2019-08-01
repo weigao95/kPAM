@@ -4,6 +4,10 @@ This project aims at pose-aware robotic manipulation for a category of objects. 
 
 ### Demo
 
+![](./media/mug.gif)  |  ![](./media/shoe.gif)
+:-------------------------:|:-------------------------:
+
+
 ### Publication
 
 [Lucas Manuelli*](http://lucasmanuelli.com/), Wei Gao*, [Pete Florence](http://www.peteflorence.com/), and [Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html), "kPAM: KeyPoint Affordances for Category-Level Robotic Manipulation", ISRR 2019  [[Project]](<https://sites.google.com/view/kpam>)[[Paper]](https://arxiv.org/abs/1903.06684)[[Video]](https://www.youtube.com/watch?v=fm5RZ-ht1y0)
