@@ -31,7 +31,7 @@ The test data, trained model and run instruction for each package are provided i
 - [Run object detection from raw images](https://github.com/weigao95/mrcnn_ros)
 - [Perform 3D keypoint detection given segmented objects](https://github.com/weigao95/mankey_ros)
 - [kPAM action planning given 3D keypoints]()
-- [Grasp Planning]()
+- [Grasp planning]()
 
 After these operations, the remaining task is to apply the planned kPAM action to the grasped object, which is essentially a rigid transformation on the robot end-effector. This part is platform-specific and you might implement it according to your own robot interface.
 
