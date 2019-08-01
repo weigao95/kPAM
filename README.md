@@ -29,8 +29,11 @@ In our experiment setup, these packages are used as the submodules of [spartan](
 The test data, trained model and run instruction for each package are provided in its own repository. Following the manipulation pipeline, the instructions are:
 
 - [Run object detection from raw images](https://github.com/weigao95/mrcnn_ros)
-- [Run 3D keypoint detection given segmented objects](https://github.com/weigao95/mankey_ros)
-- [Run kPAM action planning given 3D keypoints]()
+- [Perform 3D keypoint detection given segmented objects](https://github.com/weigao95/mankey_ros)
+- [kPAM action planning given 3D keypoints]()
+- [Grasp Planning]()
+
+After these operations, the remaining task is to apply the planned kPAM action to the grasped object, which is essentially a rigid transformation on the robot end-effector. This part is platform-specific and you might implement it according to your robot.
 
 ### Training Data
 
