@@ -28,3 +28,6 @@ In our experiment setup, these packages are used as the submodules of [spartan](
 
 The test data, trained model and run instruction for each package are provided in its own repository. Please visit these repos for detailed instruction.
 
+### Training Data
+
+The networks used in this project are trained on the same dataset in this [DenseObjectNet](https://arxiv.org/abs/1806.08756). The instruction to setup the dataset is available [here](https://github.com/RobotLocomotion/pytorch-dense-correspondence/blob/master/doc/data_organization.md).
