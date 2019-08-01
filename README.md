@@ -24,7 +24,7 @@ The code is distributed into several modularized packages
 
 In our experiment setup, these packages are used as the submodules of [spartan](https://github.com/RobotLocomotion/spartan), which provides the interface to our robots. Although spartan contains private submodules and is not supported for external use, all packages above are not specified to particular environments and can run independently. 
 
-### Test Data and Run Instruction
+### Run Instruction and Test Data
 
 The test data, trained model and run instruction for each package are provided in its own repository. Following the manipulation pipeline, the instructions are:
 
