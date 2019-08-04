@@ -32,7 +32,7 @@ The test data, trained model and run instruction for each package are provided i
 - [kPAM action planning given 3D keypoints](https://github.com/weigao95/kplan-ros)
 - [Grasp planning](https://github.com/weigao95/kplan-ros)
 
-After these operations, the remaining task is to apply the planned kPAM action to the grasped object, which is essentially a rigid transformation on the robot end-effector. This part is platform-specific and you might implement it according to your own robot interface.
+After these operations, the remaining task is to apply the planned action to the grasped object. In kPAM, the action is essentially a rigid transformation on the robot end-effector. This part is platform-specific and you might implement it according to your own robot interface.
 
 ### Training Data
 
