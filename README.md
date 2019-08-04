@@ -19,7 +19,7 @@ The code is distributed into several modularized packages
 - [mrcnn_integrate](https://github.com/weigao95/mrcnn_integrate): The code to generate data and train the [maskrcnn-benchmark](<https://github.com/facebookresearch/maskrcnn-benchmark>) instance segmentor
 - [mrcnn_ros](https://github.com/weigao95/mrcnn_ros): The ros binding of [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
 - [mankey_ros](https://github.com/weigao95/mankey-ros): The keypoint detection for the pipeline
-- [kplan_ros](https://github.com/weigao95/kplan_ros): The kPAM action planner
+- [kplan_ros](https://github.com/weigao95/kplan-ros): The kPAM action planner
 
 In our experiment setup, these packages are used as the submodules of [spartan](https://github.com/RobotLocomotion/spartan), which provides the interface to our robots. Although spartan contains private submodules and is not supported for external use, all packages above are not specified to particular environments and can run independently. 
 
@@ -29,8 +29,8 @@ The test data, trained model and run instruction for each package are provided i
 
 - [Run object detection from raw images](https://github.com/weigao95/mrcnn_ros)
 - [Perform 3D keypoint detection given segmented objects](https://github.com/weigao95/mankey-ros)
-- [kPAM action planning given 3D keypoints]()
-- [Grasp planning]()
+- [kPAM action planning given 3D keypoints](https://github.com/weigao95/kplan-ros)
+- [Grasp planning](https://github.com/weigao95/kplan-ros)
 
 After these operations, the remaining task is to apply the planned kPAM action to the grasped object, which is essentially a rigid transformation on the robot end-effector. This part is platform-specific and you might implement it according to your own robot interface.
 
