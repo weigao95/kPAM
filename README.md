@@ -18,8 +18,7 @@ The code is distributed into several modularized packages
 
 - [mrcnn_integrate](https://github.com/weigao95/mrcnn_integrate): The code to generate data and train the [maskrcnn-benchmark](<https://github.com/facebookresearch/maskrcnn-benchmark>) instance segmentor
 - [mrcnn_ros](https://github.com/weigao95/mrcnn_ros): The ros binding of [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
-- [mankey](https://github.com/weigao95/mankey): The keypoint detection for the pipeline
-- [mankey_ros](https://github.com/weigao95/mankey_ros): The ros binding of [mankey](https://github.com/weigao95/mankey)
+- [mankey_ros](https://github.com/weigao95/mankey-ros): The keypoint detection for the pipeline
 - [kplan_ros](https://github.com/weigao95/kplan_ros): The kPAM action planner
 
 In our experiment setup, these packages are used as the submodules of [spartan](https://github.com/RobotLocomotion/spartan), which provides the interface to our robots. Although spartan contains private submodules and is not supported for external use, all packages above are not specified to particular environments and can run independently. 
@@ -29,7 +28,7 @@ In our experiment setup, these packages are used as the submodules of [spartan](
 The test data, trained model and run instruction for each package are provided in its own repository. Following the manipulation pipeline, the instructions are:
 
 - [Run object detection from raw images](https://github.com/weigao95/mrcnn_ros)
-- [Perform 3D keypoint detection given segmented objects](https://github.com/weigao95/mankey_ros)
+- [Perform 3D keypoint detection given segmented objects](https://github.com/weigao95/mankey-ros)
 - [kPAM action planning given 3D keypoints]()
 - [Grasp planning]()
 
