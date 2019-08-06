@@ -36,6 +36,6 @@ After these operations, the remaining task is to apply the planned action to the
 
 ### Training Data
 
-The networks used in this project are trained on the same dataset in this [DenseObjectNet](https://arxiv.org/abs/1806.08756). The instruction to setup the dataset is available [here](https://github.com/RobotLocomotion/pytorch-dense-correspondence/blob/master/doc/data_organization.md).
+The networks used in this project are trained on the same dataset as the [DenseObjectNet](https://arxiv.org/abs/1806.08756). The instruction to setup the dataset is available [here](https://github.com/RobotLocomotion/pytorch-dense-correspondence/blob/master/doc/data_organization.md).
 
 The code for training the instance segmentation and keypoint detection network are available in their own repo. The instruction about training is under construction.
