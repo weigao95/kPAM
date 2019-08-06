@@ -16,10 +16,10 @@ This project aims at pose-aware robotic manipulation for a category of objects. 
 
 The code is distributed into several modularized packages
 
-- [mrcnn_integrate](https://github.com/weigao95/mrcnn_integrate): The code to generate data and train the [maskrcnn-benchmark](<https://github.com/facebookresearch/maskrcnn-benchmark>) instance segmentor
 - [mrcnn_ros](https://github.com/weigao95/mrcnn_ros): The ros binding of [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
 - [mankey_ros](https://github.com/weigao95/mankey-ros): The keypoint detection for the pipeline
 - [kplan_ros](https://github.com/weigao95/kplan-ros): The kPAM action planner
+- [mrcnn_integrate](https://github.com/weigao95/mrcnn_integrate): The code to generate data and train the [maskrcnn-benchmark](<https://github.com/facebookresearch/maskrcnn-benchmark>) instance segmentor
 
 In our experiment setup, these packages are used as the submodules of [spartan](https://github.com/RobotLocomotion/spartan), which provides the interface to our robots. Although spartan contains private submodules and is not supported for external use, all packages above are not specified to particular environments and can run independently. 
 
