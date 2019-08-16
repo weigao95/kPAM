@@ -1,6 +1,6 @@
 # kPAM: Generalizable Robotic Manipulation
 
-This project aims at pose-aware robotic manipulation for a category of objects. In contrast to most existing methods that most contain an explicit pose estimation, we define the object target configuration on top of semantic keypoints. In this way, the proposed pipeline can handle potentially unknown objects with substantial variations on shape and size, as shown in the demo below.
+This project aims at pose-aware robotic manipulation for a category of objects. In contrast to most existing methods that must contain an explicit pose estimation, we define the object target configuration on top of semantic keypoints. In this way, the proposed pipeline can handle potentially unknown objects with substantial variations on shape and size, as shown in the demo below.
 
 ### Demo
 
