@@ -34,6 +34,6 @@ The test data, trained model and run instruction for each package are provided i
 
 After these operations, the remaining task is to apply the planned action to the grasped object. In kPAM, the action is essentially a rigid transformation on the robot end-effector. This part is platform-specific and you might implement it according to your own robot interface.
 
-### Training Data
+### Training
 
 The instruction to setup the dataset is available [here](https://github.com/RobotLocomotion/manip_dataset). The code for training the instance segmentation and keypoint detection network are available in their own repo. Please follow the instruction accordingly.
